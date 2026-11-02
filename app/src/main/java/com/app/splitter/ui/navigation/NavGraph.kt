@@ -44,6 +44,7 @@ fun MainScreen(
 
     Scaffold(
         bottomBar = {
+
             if (isTopLevelDestination) {
                 NavigationBar(
                     containerColor = MaterialTheme.colorScheme.surfaceContainer
