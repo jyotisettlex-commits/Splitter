@@ -68,6 +68,7 @@ fun MainScreen(
                     }
                 }
             }
+
         },
         floatingActionButton = {
             if (isTopLevelDestination && currentRoute != Screen.Groups.route && currentRoute != Screen.Friends.route) {
